@@ -1,0 +1,33 @@
+run:
+  tests: false
+
+linters:
+  enable:
+    - goimports
+    - golint
+    - govet
+    - asciicheck
+    - bodyclose
+    - errorlint
+    - gci
+    - goconst
+    - gocritic
+    - gocyclo
+    - godot
+    - godox
+    - goimports
+    - gosec
+    - sqlclosecheck
+
+linters-settings:
+  govet:
+    check-shadowing: true
+
+issues:
+  exclude-use-default: false
+
+  exclude-rules:
+    # Exclude some linters from running on tests files.
+    - path: _test\.go
+      linters:
+        - goconst

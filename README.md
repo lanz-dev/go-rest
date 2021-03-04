@@ -20,7 +20,7 @@ page 21).
   "code": 200,
   "status": "success",
   "data": {
-    // ...
+
   }
 }
 ```

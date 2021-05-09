@@ -2,7 +2,8 @@
 
 [![Go Reference](https://pkg.go.dev/badge/github.com/lanz-dev/go-rest.svg)](https://pkg.go.dev/github.com/lanz-dev/go-rest)
 [![Coverage Status](https://coveralls.io/repos/github/lanz-dev/go-rest/badge.svg?branch=main)](https://coveralls.io/github/lanz-dev/go-rest?branch=main)
-![Github Action](https://github.com/lanz-dev/go-rest/actions/workflows/main.yml/badge.svg)
+[![Github Action](https://github.com/lanz-dev/go-mygrate/actions/workflows/main.yml/badge.svg)](https://github.com/lanz-dev/go-rest/actions/workflows/main.yml)
+
 
 go-rest is inspired by the [REST API Tutorial](https://www.restapitutorial.com/resources.html). It will help to create a
 RESTful service with stdlib in go. It's considered to be stable, feature complete, and it will not receive any breaking
